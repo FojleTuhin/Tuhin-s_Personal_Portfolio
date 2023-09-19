@@ -985,3 +985,11 @@ html{
     }
     
 }
+
+@media (max-width:700px){
+    .home .home-img img{
+        height: 300px;
+        border-radius: 5px;
+       
+    }
+}
