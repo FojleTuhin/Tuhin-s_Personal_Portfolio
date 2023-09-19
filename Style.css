@@ -990,6 +990,19 @@ html{
     .home .home-img img{
         height: 300px;
         border-radius: 5px;
-       
+    }
+
+
+    .btn {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 9px 27px;
+        background: var(--skin-color);
+        color: white;
+        border-radius: 30px;
+        display: inline-block;
+        white-space: nowrap;
+        transition: all 0.3s ease;
+        border: none;
     }
 }
