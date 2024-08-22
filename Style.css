@@ -702,12 +702,22 @@ h3.my-profession {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    
 }
+
+.portfolio .portfolio-item-inner.live-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 
 .portfolio .portfolio-item-inner .portfolio-img {
     width: 100%;
     height: 200px;
     display: block;
+    position: relative;
+
 }
 
 .portfolio .portfolio-item-inner .portfolio-img .img-cover{
@@ -863,6 +873,14 @@ html{
     right: 5px ;
     opacity: 0.5;
     
+}
+
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
 }
 
 
