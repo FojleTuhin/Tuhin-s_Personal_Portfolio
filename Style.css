@@ -111,7 +111,33 @@ ul {
     position: relative;
 }
 
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
 
+.code{
+    padding:10px 20px;
+    background-color: black;
+    color: white;
+    display:none;
+}
+
+.portfolio-item:hover .code{
+    display: block;
+}
+
+
+.display-flex{
+    display: flex;
+    gap: 10px;
+    
+}
 .section-title h2::before {
     content: '';
     height: 4px;
@@ -719,6 +745,8 @@ h3.my-profession {
     position: relative;
 
 }
+
+
 
 .portfolio .portfolio-item-inner .portfolio-img .img-cover{
     object-fit: contain;
